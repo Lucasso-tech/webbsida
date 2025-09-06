@@ -1,15 +1,33 @@
+
+
 body{
     background-image: url(Frame2.png);
     background-size: cover;
 }
+.header1 {
+    display: flex;
+    width:40%;
+    height: 50px;
+    background-color:whitesmoke;
+    border-radius:1%;
+    color: white;
+    align-items: center;
+  justify-content: space-between;
+  margin-left: 60vh;
+}
+
+
+.box1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 6 vh;
+    padding-right: 45px;
+}
 
 
 a{
-    display: flex;
     color: aliceblue;
-    justify-content: baseline;
-    align-items: baseline;
-    
     font-size: xx-large;
     text-decoration: none;
     border: 3px solid purple;
@@ -17,3 +35,14 @@ a{
     padding-left: 6px;
     border-radius: 5%;
 }
+
+.left-container1{
+    background-color: bisque;
+    width: 50vh;
+    height: 60vh;
+    margin-top: 20vh;
+    margin-left:20vh ;
+    border-radius: 10%;
+    
+}
+

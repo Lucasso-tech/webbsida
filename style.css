@@ -4,7 +4,7 @@ body{
    
 }
 
-().left-container{
+.left-container{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -31,16 +31,16 @@ a{
     display: block;
     border: 3px solid goldenrod;
     height: 723px;
-    
-    margin-bottom: 0%;
-    border-radius: 2%;¨
+    border-radius: 2%;
     text-decoration: none;
 
 }
 
+
 .box-1{
 transform: translate(-1px);
 width:10%;
+
 
 }
 
