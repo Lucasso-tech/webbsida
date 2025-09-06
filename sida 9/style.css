@@ -1,7 +1,21 @@
 body{
-   background-image:url(frame1.png);
+   background-image:url(frame9.png);
    background-size:cover;
 
 
 
+}
+
+a{
+   display: flex;
+   color: aliceblue;
+   justify-content: baseline;
+   align-items: baseline;
+   
+   font-size: xx-large;
+   text-decoration: none;
+   border: 3px solid purple;
+   width: 69px;
+   padding-left: 6px;
+   border-radius: 5%;
 }
