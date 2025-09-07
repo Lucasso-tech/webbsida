@@ -7,7 +7,7 @@ body{
     display: flex;
     width:40%;
     height: 50px;
-    background-color:whitesmoke;
+    background-color:bisque;
     border-radius:1%;
     color: white;
     align-items: center;
@@ -15,6 +15,10 @@ body{
   margin-left: 60vh;
 }
 
+h1{
+    color: black;
+    margin-left: 200px;
+}
 
 .box5 {
     display: flex;
@@ -26,21 +30,32 @@ body{
 
 
 a{
-    color: aliceblue;
+    color: bisque;
     font-size: xx-large;
     text-decoration: none;
-    border: 3px solid purple;
+    border: 3px solid bisque;
     width: 69px;
     padding-left: 6px;
     border-radius: 5%;
 }
-
+.container-5{
+    display: flex;
+    justify-content: space-between;
+}
 .left-container5{
     background-color: bisque;
-    width: 50vh;
-    height: 60vh;
+    width: 52vh;
+    height: 65vh;
     margin-top: 20vh;
     margin-left:20vh ;
     border-radius: 10%;
-    
+    text-align: center;
+    font-size: x-large;
+}
+
+.right-container5{
+    width: 650px;
+    height: 400px;
+    margin-right: 120px;
+    margin-top: 170px;
 }

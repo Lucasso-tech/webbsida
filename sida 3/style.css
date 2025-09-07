@@ -7,14 +7,18 @@ body{
     display: flex;
     width:40%;
     height: 50px;
-    background-color:whitesmoke;
+    background-color:bisque;
     border-radius:1%;
-    color: white;
+    color: black;
     align-items: center;
   justify-content: space-between;
   margin-left: 60vh;
 }
 
+h1{
+    color: black;
+    margin-left: 180px;
+}
 
 .box2 {
     display: flex;
@@ -26,21 +30,34 @@ body{
 
 
 a{
-    color: aliceblue;
+    color: black;
     font-size: xx-large;
     text-decoration: none;
-    border: 3px solid purple;
+    border: 3px solid bisque;
     width: 69px;
     padding-left: 6px;
     border-radius: 5%;
 }
 
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .left-container2{
-    background-color: bisque;
+    background-color:bisque;
     width: 50vh;
-    height: 60vh;
+    height: 65vh;
     margin-top: 20vh;
     margin-left:20vh ;
     border-radius: 10%;
-    
+    text-align: center;
+    font-size: x-large;
+}
+
+.right-container2{
+    width: 650px;
+   height: 400px;
+   margin-right: 120px;
+   margin-top: 120px;
 }
